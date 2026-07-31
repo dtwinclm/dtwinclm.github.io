@@ -85,7 +85,7 @@
                         intersect: false,
                         callbacks: {
                             label: function(context) {
-                                return ' CO2: ' + context.parsed.y.toFixed(2) + ' ppm';
+                                return ' CO2: ' + Math.round(context.parsed.y) + ' ppm';
                             }
                         }
                     },
